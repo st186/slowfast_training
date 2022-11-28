@@ -1,0 +1,4 @@
+docker build -t model_testing:v1 .
+
+
+docker run -it --rm -v /dev/shm:/dev/shm -e s3Path=s3://production-deployment/test_env/WS1/ -e rtsp=bhavika model_testing:v1 

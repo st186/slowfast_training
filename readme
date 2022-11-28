@@ -1,0 +1,8 @@
+store all action data in data folder
+run Resize Data.ipynb
+run augmentation.py
+run python3 new_frame_list.py 
+
+start training
+
+python3 tools/run_net.py --cfg configs/Kinetics/C2D_8x8_R50.yaml TRAIN.BATCH_SIZE 8  DATA.PATH_TO_DATA_DIR ../frame_list/

@@ -1,0 +1,11 @@
+{
+  "Start of Assembly": 0,
+  "Pick up battery and place inside chassis": 1,
+  "Pick up transformer and place inside chassis": 2,
+  "Place PCB inside top cover": 3,
+  "Attach power wire to chassis": 4,
+  "Connect power cable to the PCB": 5,
+  "Attach socket panel to chassis": 6,
+  "Fit top cover over chassis": 7,
+  "Attach top cover to chassis with screws": 8
+}
