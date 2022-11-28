@@ -195,5 +195,5 @@ def create_augmented_videos(
 
 # ------------------------------------------------------------------------------
 
-create_augmented_videos(raw_video_folder_path='/home/softmaxai/Bhavika_Kanani/TechMahindra/TechM-Training-2904/rescaled_data',
-                        augmented_video_folder_path = '/home/softmaxai/Bhavika_Kanani/TechMahindra/TechM-Training-2904/aug_data')
+create_augmented_videos(raw_video_folder_path='rescaled_data',
+                        augmented_video_folder_path = 'aug_data')
